@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a307518-e431-493b-bf00-0bbe457a4042" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Task2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/.idea/Task2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_00.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_00.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_01.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_01.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_02.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_02.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_03.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_03.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_04.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_04.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_05.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_05.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_06.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_06.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_07.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_07.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_08.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_08.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_09.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_09.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_0a.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_0a.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_0b.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_0b.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_0c.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_0c.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_0d.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_0d.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_0e.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_0e.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_0f.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_0f.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_10.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_10.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_11.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_11.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_12.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_12.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_13.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_13.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_14.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_14.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_15.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_15.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_16.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_16.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_17.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_17.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_18.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_18.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_19.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_19.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_1a.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_1a.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_1b.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_1b.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_1c.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_1c.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_1d.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_1d.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_1e.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_1e.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_1f.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_1f.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_20.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_20.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_21.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_21.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_22.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_22.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_23.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_23.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_24.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_24.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_25.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_25.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_26.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_26.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_27.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_27.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_28.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_28.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_29.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_29.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_2a.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_2a.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_2b.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_2b.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_2c.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_2c.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_2d.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_2d.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_2e.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_2e.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_2f.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_2f.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_30.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_30.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_31.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_31.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_32.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_32.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_33.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_33.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_34.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_34.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_35.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_35.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_36.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_36.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_37.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_37.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_38.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_38.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_39.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_39.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_3a.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_3a.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_3b.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_3b.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_3c.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_3c.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_3d.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_3d.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_3e.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_3e.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_3f.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_3f.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_40.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_40.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_41.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_41.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_42.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_42.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_43.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_43.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_44.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_44.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_45.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_45.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_46.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_46.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_47.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_47.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_48.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_48.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_49.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_49.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_4a.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_4a.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_4b.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_4b.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_4c.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_4c.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_4d.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_4d.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_4e.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_4e.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_4f.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_4f.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_50.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_50.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_51.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_51.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_52.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_52.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_53.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_53.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_54.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_54.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_55.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_55.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_56.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_56.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_57.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_57.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_58.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_58.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_59.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_59.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_5a.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_5a.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_5b.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_5b.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_5c.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_5c.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_5d.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_5d.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_5e.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_5e.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_5f.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_5f.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_60.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_60.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_61.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_61.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_62.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_62.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_63.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_63.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_64.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_64.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_65.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_65.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_66.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_66.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_67.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_67.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_68.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_68.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_69.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_69.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_6a.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_6a.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_6b.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_6b.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_6c.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_6c.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_6d.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_6d.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_6e.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_6e.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_6f.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_6f.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_70.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_70.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_71.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_71.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_72.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_72.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_73.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_73.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_74.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_74.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_75.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_75.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_76.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_76.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_77.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_77.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_78.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_78.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_79.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_79.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_7a.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_7a.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_7b.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_7b.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_7c.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_7c.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_7d.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_7d.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_7e.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_7e.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_7f.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_7f.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_80.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_80.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_81.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_81.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_82.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_82.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_83.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_83.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_84.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_84.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_85.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_85.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_86.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_86.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_87.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_87.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_88.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_88.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_89.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_89.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_8a.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_8a.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_8b.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_8b.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_8c.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_8c.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_8d.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_8d.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_8e.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_8e.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_8f.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_8f.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_90.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_90.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_91.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_91.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_92.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_92.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_93.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_93.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_94.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_94.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_95.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_95.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_96.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_96.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_97.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_97.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_98.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_98.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_99.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_99.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_9a.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_9a.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_9b.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_9b.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_9c.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_9c.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_9d.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_9d.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_9e.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_9e.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_9f.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_9f.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_a0.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_a0.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_a1.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_a1.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_a2.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_a2.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_a3.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_a3.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_a4.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_a4.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_a5.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_a5.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_a6.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_a6.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_a7.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_a7.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_a8.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_a8.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_a9.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_a9.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_aa.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_aa.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ab.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ab.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ac.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ac.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ad.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ad.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ae.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ae.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_af.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_af.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_b0.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_b0.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_b1.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_b1.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_b2.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_b2.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_b3.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_b3.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_b4.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_b4.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_b5.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_b5.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_b6.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_b6.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_b7.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_b7.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_b8.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_b8.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_b9.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_b9.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ba.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ba.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_bb.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_bb.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_bc.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_bc.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_bd.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_bd.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_be.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_be.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_bf.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_bf.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_c0.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_c0.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_c1.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_c1.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_c2.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_c2.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_c3.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_c3.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_c4.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_c4.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_c5.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_c5.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_c6.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_c6.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_c7.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_c7.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_c8.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_c8.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_c9.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_c9.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ca.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ca.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_cb.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_cb.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_cc.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_cc.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_cd.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_cd.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ce.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ce.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_cf.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_cf.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_d0.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_d0.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_d1.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_d1.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_d2.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_d2.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_d3.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_d3.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_d4.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_d4.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_d5.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_d5.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_d6.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_d6.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_d7.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_d7.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_d8.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_d8.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_d9.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_d9.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_da.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_da.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_db.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_db.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_dc.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_dc.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_dd.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_dd.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_de.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_de.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_df.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_df.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_e0.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_e0.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_e1.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_e1.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_e2.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_e2.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_e3.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_e3.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_e4.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_e4.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_e5.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_e5.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_e6.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_e6.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_e7.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_e7.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_e8.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_e8.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_e9.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_e9.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ea.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ea.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_eb.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_eb.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ec.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ec.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ed.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ed.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ee.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ee.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ef.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ef.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_f0.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_f0.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_f1.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_f1.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_f2.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_f2.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_f3.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_f3.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_f4.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_f4.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_f5.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_f5.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_f6.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_f6.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_f7.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_f7.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_f8.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_f8.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_f9.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_f9.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_fa.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_fa.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_fb.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_fb.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_fc.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_fc.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_fd.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_fd.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_fe.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_fe.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/files/file_ff.data" beforeDir="false" afterPath="$PROJECT_DIR$/files/file_ff.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task2/task2.js" beforeDir="false" afterPath="$PROJECT_DIR$/task2.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24p1rgGwuKVduTfXuftHgoaFswg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="task2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task2.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.task2.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a307518-e431-493b-bf00-0bbe457a4042" name="Changes" comment="" />
+      <created>1644312917529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644312917529</updated>
+      <workItem from="1644312918627" duration="17589000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/task2.js</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
