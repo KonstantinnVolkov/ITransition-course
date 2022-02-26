@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+                xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
 
 <body>
 <div class="container">
-    <form class="form-horizontal" modelAtribute="userForm" method="post">
+    <form class="form-horizontal" action="#" th:action="@{/registration}" th:object="${userData}" method="post">
 
         <div class="row justify-content-center">
             <div id="legend">
@@ -22,22 +22,22 @@
 
             <div class="control-group mb-3">
                 <label class="form-label" for="username">Username</label>
-                <input class="form-control" id="username" type="text" name="username" value="" placeholder="username"></input>
+                <input class="form-control" id="username" type="text" name="username" placeholder="username" th:field="*{username}"/>
             </div>
 
             <div class="control-group mb-3">
                 <label class="form-label" for="email">Email</label>
-                <input class="form-control" id="email" type="email" name="email" placeholder="Email">
+                <input class="form-control" id="email" type="email" name="email" placeholder="Email" th:field="*{email}">
             </div>
 
             <div class="control-group mb-3">
                 <label class="form-label" for="password">Password</label>
-                <input class="form-control" id="password" type="password" name="password" placeholder="password">
+                <input class="form-control" id="password" type="password" name="password" placeholder="password" th:field="*{password}">
             </div>
 
             <div class="control-group mb-3">
                 <label class="form-label" for="passwordConfirm">Password (confirm)</label>
-                <input class="form-control" id="passwordConfirm" type="password" name="passwordConfirm" placeholder="Confirm password">
+                <input class="form-control" id="passwordConfirm" type="password" name="passwordConfirm" placeholder="Confirm password" th:field="*{passwordConfirm}">
             </div>
 
             <div class="control-group mb-3">

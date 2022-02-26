@@ -26,10 +26,11 @@ public class User {
 
     @ManyToMany
     @JoinTable(name = "user_roles",
-        joinColumns = @JoinColumn(name = "user_id"),
-        inverseJoinColumns = @JoinColumn(name = "role_id"))
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Collection<Role> roles;
 
-
-
+    public void setReg_date(Date reg_date) {
+        this.reg_date = new Date();
+    }
 }
