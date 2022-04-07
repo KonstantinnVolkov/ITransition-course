@@ -6,6 +6,7 @@ import com.example.task3.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -37,5 +38,9 @@ public class UserService {
 
     public void updateStatus(Integer id, State state) {
         userRepository.updateUserStatus(id, state);
+    }
+
+    public void setLastLoginTime(int id) {
+        userRepository.updateUserLastLogin(id, new Date());
     }
 }

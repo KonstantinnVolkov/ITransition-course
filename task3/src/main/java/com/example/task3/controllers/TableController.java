@@ -48,12 +48,16 @@ public class TableController {
     }
 
     @PostMapping(params = "block")
-    public String blockUser(String IDs) {
+    public String blockUser(String IDs, Authentication authentication) {
         if (IDs.isEmpty())
             return "redirect:/table";
         List<Integer> idList = Arrays.asList(IDs.split(",")).stream().map(Integer::parseInt).collect(Collectors.toList());
         for (Integer id : idList) {
             userService.updateStatus(id, State.BANNED);
+        }
+        User currentUser = userService.findByUsername(authentication.getName());
+        if (idList.contains(currentUser.getId())) {
+            return "redirect:/logout";
         }
         return "redirect:/table";
     }
@@ -64,7 +68,6 @@ public class TableController {
             return "redirect:/table";
         List<Integer> idList = Arrays.asList(IDs.split(",")).stream().map(Integer::parseInt).collect(Collectors.toList());
         User currentUser = userService.findByUsername(authentication.getName());
-
         userService.deleteUsers(idList);
         return "redirect:/table";
     }
