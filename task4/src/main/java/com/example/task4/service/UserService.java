@@ -19,18 +19,6 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
-    public void deleteUsers(List<Integer> IDs) {
-        for (Integer id : IDs) {
-            Optional<User> usersOptional = userRepository.findById(id);
-            if (usersOptional.isPresent()) {
-                userRepository.delete(usersOptional.get());
-            }
-            else {
-                throw new RuntimeException("Post for id " + IDs + " not found!");
-            }
-        }
-    }
-
     public List<User> getAllUsers() {
         return userRepository.findAll();
     }

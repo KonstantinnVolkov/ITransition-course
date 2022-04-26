@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "messages")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -15,9 +16,17 @@ public class Message {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+    @Column(name = "sender")
     private String sender;
+
+    @Column(name = "receiver")
     private String receiver;
-    private String theme;
+
+    @Column(name = "text")
     private String text;
+
+    @Column(name = "theme")
+    private String theme;
 
 }
