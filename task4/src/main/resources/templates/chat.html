@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
 <head>
-    <title>Chat</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.4.0/sockjs.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.4.0/sockjs.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
 </head>
 <body style="background: #e1e3e6">
-<div class="mt-5">
-    <h4 class="text-center mt-3" th:text="'Chat with: ' + ${chatWith}"></h4>
-    <div class="container-md" style="max-width: 500px;">
-        <input type="text" name="receiver" id="receiver" th:value="${chatWith}" style="visibility: hidden"/>
-        <input type="text" name="sender" id="sender" th:value="${currentUser}" style="visibility: hidden"/>
-        <div class="mb-1"><label class="row justify-content-between"> Topic: <input class="mt-1" type="text" name="theme" id="theme" required autofocus/> </label></div>
-        <div class="mb-1"><label class="row justify-content-between"> Text: <textarea class="mt-1" name="text" id="text" required autofocus> </textarea></label></div>
-        <div class="text-center"><button class="btn btn-primary mt-3 w-100" id="send" onclick=sendMessage() >Send</button></div>
-    </div>
-</div>
-<div class="m-4">
-    <h4><label>Your Messages: </label><span id="message"></span></h4>
-    <div class="accordion" id="messages_list" style="color: black; max-width: 900px;">
-        <div class="accordion-item" th:each="message : ${messages}">
-            <h2 class="accordion-header" th:id="'heading'+${message.id}">
-                <button class="accordion-button collapsed" style="background-color: lightskyblue;" type="button" data-bs-toggle="collapse" th:data-bs-target="'#collapse'+${message.id}" aria-expanded="false" th:aria-controls="'collapse'+${message.id}">
-                    <strong> &nbsp; Topic: &nbsp;</strong><div th:text="${message.theme}"></div>
-                </button>
-            </h2>
-            <div th:id="'collapse'+${message.id}" class="accordion-collapse collapse" th:aria-labelledby="'heading'+${message.id}" data-bs-parent="#messages_list">
-                <div class="accordion-body" th:text="${message.text}">
-                </div>
+    <h4 class="text-center mt-3" th:text="'Chat with: ' + ${chatWith}">Chat with: user</h4>
+    <input type="text" name="receiver" id="receiver" th:value="${chatWith}" style="visibility: hidden"/>
+    <input type="text" name="sender" id="sender" th:value="${currentUser}" style="visibility: hidden"/>
+    <div class="container">
+    <div class="row justify-content-md-center" style="max-width: 800px">
+        <div class="col col-lg-6 card" id="messagesBox">
+            <div th:each="message: ${messages}">
+                <p th:text="'Sender: ' + ${message.sender}" style="margin-bottom: 0"></p>
+                <p th:text="'Theme: ' + ${message.theme}" style="margin-bottom: 0"></p>
+                <strong class="mb-1" th:text="'Text: ' + ${message.text}"></strong>
+                <hr>
             </div>
         </div>
+        <div class="col col-lg-1"></div>
+        <div class="col col-lg-5">
+            <div class="mb-1"><label class="row justify-content-between"> Topic: <input class="mt-1" type="text" name="theme" id="theme" required/> </label></div>
+            <div class="mb-1"><label class="row justify-content-between"> Text: <textarea class="mt-1" name="text" id="text" required> </textarea></label></div>
+            <div class="text-center"><button class="btn btn-primary mt-3 w-100" id="send" onclick=sendMessage() >Send</button></div>
+        </div>
     </div>
-</div>
+    </div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
 <script>
     let stompClient = null;
 
@@ -51,24 +51,22 @@
             stompClient.subscribe('/topic/public', function (message) {
                 console.log(message);
                 var message = JSON.parse(message.body);
-                console.log('receiver: '+message.receiver)
-                console.log('sender: '+message.sender)
-                let id = message.id;
+                let sender = message.sender;
                 let theme = message.theme;
                 let text = message.text;
+                console.log('theme: '+ theme)
+                console.log('text: '+text)
                 if (message.receiver === $('#receiver').val() || message.sender === $('#receiver').val()) {
-                    $('#message').append(
-                        '<div class="accordion-item">' +
-                            '<h2 class="accordion-header" id="' + 'heading' + id + '">' +
-                                '<button class="accordion-button collapsed" style="background-color: lightskyblue;" type="button" data-bs-toggle="collapse" th:data-bs-target="' + 'collapse' + id + '" aria-expanded="false" th:aria-controls="' + 'collapse' + id + '">' +
-                                    '<strong> &nbsp; Topic: &nbsp;</strong>' +
-                                    '<div text="'+theme+'"></div>' +
-                                '</button>' +
-                            '</h2>' +
-                            '<div id="' + 'collapse' + id + '" class="accordion-collapse collapse" th:aria-labelledby="' + 'heading' + id + '" data-bs-parent="#messages_list">' +
-                                '<div class="accordion-body" text="'+text+'">'+'</div>' +
-                            '</div>' +
-                        '</div>');
+                    document.getElementById('messagesBox').innerHTML +=
+                        //'<div class="col col-lg-6 card">' +
+                        //     '<div th:each="message: ${messages}">'+
+                        '<div>' +
+                                '<p style="margin-bottom: 0">'+'Sender: '+sender+'</p>' +
+                                '<p style="margin-bottom: 0">'+'Topic: '+theme+'</p>' +
+                                '<strong class="mb-1">'+'Text: '+text+'</strong>' +
+                                '<hr>' +
+                            '</div>' //+
+                     //   '</div>';
                 }
             });
         });

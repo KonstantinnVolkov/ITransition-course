@@ -33,7 +33,7 @@ public class ChatsController {
         model.addAttribute("messages", chatMessages);
         model.addAttribute("chatWith", chatWith);
         model.addAttribute("currentUser", principal.getName());
-        return "newChat";
+        return "chat";
     }
 
 
