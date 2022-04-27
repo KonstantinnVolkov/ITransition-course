@@ -13,7 +13,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.4.0/sockjs.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body style="background: #e1e3e6">
     <h4 class="text-center mt-3" th:text="'Chat with: ' + ${chatWith}">Chat with: user</h4>
@@ -26,7 +25,7 @@
                 <p th:text="'Sender: ' + ${message.sender}" style="margin-bottom: 0"></p>
                 <p th:text="'Theme: ' + ${message.theme}" style="margin-bottom: 0"></p>
                 <strong class="mb-1" th:text="'Text: ' + ${message.text}"></strong>
-                <a href="" style="text-decoration: none !important;"><i class='fas fa-pen'></i></a>
+                <a th:if="${message.sender == currentUser}" href="" style="text-decoration: none !important;"><p>edit</p></a>
                 <hr>
             </div>
         </div>
@@ -56,16 +55,28 @@
                 let sender = message.sender;
                 let theme = message.theme;
                 let text = message.text;
+                let currentUser = document.getElementById('sender').value;
                 console.log('theme: '+ theme)
                 console.log('text: '+text)
                 if (message.receiver === $('#receiver').val() || message.sender === $('#receiver').val()) {
-                    document.getElementById('messagesBox').innerHTML +=
-                        '<div>' +
+                    if (currentUser === sender) {
+                        document.getElementById('messagesBox').innerHTML +=
+                            '<div>' +
                             '<p style="margin-bottom: 0">'+'Sender: '+sender+'</p>' +
                             '<p style="margin-bottom: 0">'+'Topic: '+theme+'</p>' +
                             '<strong class="mb-1">'+'Text: '+text+'</strong>' +
+                            '<a href="" style="text-decoration: none !important;"><p>edit</p></a>' +
                             '<hr>' +
+                            '</div>'
+                    }
+                    else document.getElementById('messagesBox').innerHTML +=
+                        '<div>' +
+                        '<p style="margin-bottom: 0">'+'Sender: '+sender+'</p>' +
+                        '<p style="margin-bottom: 0">'+'Topic: '+theme+'</p>' +
+                        '<strong class="mb-1">'+'Text: '+text+'</strong>' +
+                        '<hr>' +
                         '</div>'
+
                 }
             });
         });
