@@ -13,6 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.4.0/sockjs.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body style="background: #e1e3e6">
     <h4 class="text-center mt-3" th:text="'Chat with: ' + ${chatWith}">Chat with: user</h4>
@@ -21,10 +22,11 @@
     <div class="container">
     <div class="row justify-content-md-center" style="max-width: 800px">
         <div class="col col-lg-6 card" id="messagesBox">
-            <div th:each="message: ${messages}">
+            <div th:each="message: ${messages}" id="msgInfo">
                 <p th:text="'Sender: ' + ${message.sender}" style="margin-bottom: 0"></p>
                 <p th:text="'Theme: ' + ${message.theme}" style="margin-bottom: 0"></p>
                 <strong class="mb-1" th:text="'Text: ' + ${message.text}"></strong>
+                <a href="" style="text-decoration: none !important;"><i class='fas fa-pen'></i></a>
                 <hr>
             </div>
         </div>
@@ -58,15 +60,12 @@
                 console.log('text: '+text)
                 if (message.receiver === $('#receiver').val() || message.sender === $('#receiver').val()) {
                     document.getElementById('messagesBox').innerHTML +=
-                        //'<div class="col col-lg-6 card">' +
-                        //     '<div th:each="message: ${messages}">'+
                         '<div>' +
-                                '<p style="margin-bottom: 0">'+'Sender: '+sender+'</p>' +
-                                '<p style="margin-bottom: 0">'+'Topic: '+theme+'</p>' +
-                                '<strong class="mb-1">'+'Text: '+text+'</strong>' +
-                                '<hr>' +
-                            '</div>' //+
-                     //   '</div>';
+                            '<p style="margin-bottom: 0">'+'Sender: '+sender+'</p>' +
+                            '<p style="margin-bottom: 0">'+'Topic: '+theme+'</p>' +
+                            '<strong class="mb-1">'+'Text: '+text+'</strong>' +
+                            '<hr>' +
+                        '</div>'
                 }
             });
         });
@@ -77,6 +76,13 @@
             'theme': $('#theme').val(),
             'text': $('#text').val()
         }));
+        document.getElementById('theme').value = '';
+        document.getElementById('text').value = '';
+    }
+
+    function editMessage(message) {
+        document.getElementById('theme').value = message.theme;
+        document.getElementById('text').value = message.text;
     }
 </script>
 <script>
